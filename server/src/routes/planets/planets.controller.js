@@ -1,4 +1,4 @@
-const planets = require("../../models/planets.model");
+const { planets } = require("../../models/planets.model");
 
 function getAllPlanets(req, res) {
   //Express won't receive, only allows function stops executing
